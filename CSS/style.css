@@ -51,5 +51,27 @@ figure figcaption {
     text-align: center;
     }
 
+@media only screen and (min-width: 600px) {
+body {
+    background-color: blue;
+    background-color: #575759;
+    color: #e5e5e5;
+    margin: 25px 30px 75px 30px;
+  }
 
+  .figure{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    /*gap: 100px;*/
+    /*column-gap: 100px;*/
+    justify-content: center;
+    /*width: 100%;
+    height: auto;*/
+}
+
+figure img{
+  width: 100%;
+    height: auto;
+}
 
