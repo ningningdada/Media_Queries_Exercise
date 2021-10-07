@@ -1,0 +1,55 @@
+/* For mobile phones: */
+body {
+    font-size: 20px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+    margin: 25px 15px 75px 15px;
+    padding: 0;
+}
+
+.header1 {
+    /*padding-top: 37px*/
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.intro-text {
+  text-align: center ;
+}
+
+.header2 {
+    /*padding-top: 37px*/
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.figure{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    /*gap: 40px;*/
+    justify-content: center;
+    /*width: 100%;
+    height: auto;*/
+}
+
+figure figcaption {
+    border: 0px dotted blue;
+    text-align: center;
+    }
+
+
+
